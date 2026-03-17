@@ -4,12 +4,12 @@ Aplicação web desenvolvida com <strong>HTML</strong>, <strong>CSS</strong> e <
 
 O usuário informa um valor mínimo e um valor máximo, e o sistema retorna automaticamente um número sorteado dentro desse intervalo.
 <br>
-<br> <h2> 🔗 Acesse o projeto online: https://hhosanareis.github.io/Mario-Bros/ </h2>
+<br> <h2> 🔗 Acesse o projeto online: https://hosanareis.github.io/Sorteador/ </h2>
 <br>
 
 <h2 align="center">🚀 Demonstração</h2> 
 <br>
-<img src="https://ggithub.com/hosanareis/Mario-Bros/blob/main/V%C3%ADdeo%20site.gif?raw=true"/>
+<img src="https://github.com/hosanareis/Sorteador/blob/main/GiF%20-%20Sorteador.gif?raw=true"/>
 <br>
 <h3> Funcionalidades:</h3>
 
@@ -18,8 +18,6 @@ O usuário informa um valor mínimo e um valor máximo, e o sistema retorna auto
 - **Interação simples e direta:** o resultado é exibido de forma imediata na tela, proporcionando uma experiência rápida e intuitiva.
 
 <h3> Objetivo do projeto </h3>
-
-Este projeto foi desenvolvido com o objetivo de praticar:
 
 - Manipulação do DOM;
 - Captura de dados do usuário;
