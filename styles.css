@@ -14,7 +14,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 10vh;
 }
 
 h2 {
@@ -24,7 +24,7 @@ h2 {
     line-height: 38px;
     color: #FFFFFF;
     text-align: center;
-    margin-top: 6px;
+    margin-top: 8px;
     margin-bottom: 26px;
 }
 
@@ -55,7 +55,7 @@ button {
     color: #373232;
     font-weight: 700;
     font-size: 36px;
-    margin-top: 80px;
+    margin-top: 26px;
     border: none;
     cursor: pointer;
 }
@@ -66,4 +66,42 @@ button:hover {
 
 button:active {
     opacity: 0.8;
+}
+
+/*
+#resultado {
+    margin-top: 40px;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+} MOSTRA O RESULTADO NA TELA DO SITE*/
+
+.alerta {
+    position: fixed;
+    top: 770px; /* 👈 AQUI você controla pra descer */
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ff3838;
+    color:  #373232;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    display: none;
+    
+}
+
+.alerta {
+    font-weight: 700;
+}
+
+/* animação de girar */
+@keyframes girar {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* animação de piscar */
+@keyframes piscar {
+    0%, 50%, 100% { opacity: 1; }
+    25%, 75% { opacity: 0; }
 }
